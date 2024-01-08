@@ -12,7 +12,8 @@ let currentIndex, Firstlogin = true, changeflag = 0, changing, changetime = 0, t
 const events = require('events'), CookieChanger = new events.EventEmitter();
 require('events').EventEmitter.defaultMaxListeners = 0;
 
-CookieChanger.on('ChangeCookie', () => {
+CookieChanger.on('sessionKey=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
+', () => {
     setTimeout(() => {
         changeflag = 0, changing = true;
         Proxy && Proxy.close();
